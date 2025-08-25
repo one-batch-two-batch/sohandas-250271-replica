@@ -5,6 +5,6 @@ You may also refer to the vercel link provided in the about section.
 Currently this website is available for "Light Mode". "Dark mode" development is also in progress.
 
 
-<img width="1897" height="970" alt="Screenshot 2025-08-25 223650" src="https://github.com/user-attachments/assets/8f8a56a0-cd61-4668-af6a-64f42c44e53f" />
+<img width="1897" height="961" alt="Screenshot 2025-08-25 230500" src="https://github.com/user-attachments/assets/d1d3d648-62bb-44ab-8078-598f6948a4a1" />
 
-<img width="1899" height="967" alt="Screenshot 2025-08-25 223702" src="https://github.com/user-attachments/assets/448100f5-d9f5-45dc-9cb3-2669bce15c31" />
+<img width="1900" height="969" alt="Screenshot 2025-08-25 230508" src="https://github.com/user-attachments/assets/e0d09a33-080a-41b1-9788-f90be87221e7" />
