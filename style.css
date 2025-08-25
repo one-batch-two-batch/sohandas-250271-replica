@@ -29,19 +29,18 @@ body {
     gap: 16px;
 }
 
-.shortcut{
+.shortcut {
     position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #f3f3f3;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 2px 6px;
-  font-size: 12px;
-  font-family: monospace;
-  color: #333;
-
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-family: monospace;
+      color: #333;
 }
 
 .bell {
