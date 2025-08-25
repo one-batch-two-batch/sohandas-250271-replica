@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replica's Project - Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-left">
+            <span class="logo"><img src="hii.svg"></span>
+            <div class="slash">/</div>
+            <div class="project-info">
+                <span style="margin-top: 6px;"><img src="blue-dot.svg" height="40px"></span>
+                <span class="project-name">Replica's Project</span>
+                <span class="hobby-badge">Hobby</span>
+                <img src="up-down-arrow.svg" alt="">
+
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <span class="search-icon"><img src="searchicon.png" alt="" height="15px"></span>
+                <div class="container">
+
+                    <input type="text" class="search-input" placeholder="Find... " />
+
+                </div>
+
+            </div>
+
+            <button class="nav-button">Feedback</button>
+            <span class="bell"><img src="bell-icon.svg" alt="" height="21px"></span>
+            <span class="bell"><img src="book.svg" alt="" height="21px"></span>
+            <div class="user-avatar"><img src="blue-dot.svg" alt="" height="40px"></div>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav">
+        <div class="nav-tabs">
+            <a href="#" class="nav-tab active">Overview</a>
+            <a href="#" class="nav-tab">Integrations</a>
+            <a href="#" class="nav-tab">Deployments</a>
+            <a href="#" class="nav-tab">Activity</a>
+            <a href="#" class="nav-tab">Domains</a>
+            <a href="#" class="nav-tab">Usage</a>
+            <a href="#" class="nav-tab">Observability</a>
+            <a href="#" class="nav-tab">Storage</a>
+            <a href="#" class="nav-tab">Flags</a>
+            <a href="#" class="nav-tab">AI Gateway</a>
+            <a href="#" class="nav-tab">Support</a>
+            <a href="#" class="nav-tab">Settings</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-header">
+            <div class="project-search">
+                <span class="search-icon"><img src="searchicon.png" alt="" height="18px"></span>
+                <input type="text" placeholder="Search Projects..." />
+            </div>
+            <div class="header-controls">
+                <div class="view-toggle"  style="margin-left: 10px;">
+                <button class="view-button" style="padding: 0px 2px 0px 2px;"><span class="gridic"><img src="filtericon.png" height="18px"></span></button>
+                </div>
+                <div class="view-toggle">
+                    
+                    <!-- <button class="view-button active">⊞</button> -->
+                    <img src="grid-icon.svg" alt="" class="gridic">
+
+                    <img src="hamburger.svg" alt="" class="gridic">
+                </div>
+                <button class="add-button">
+                    <div>Add New... </div>
+                    <div style="margin-bottom: -4px;">
+                        <img src="down-arrow.svg">
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="content-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Usage Card -->
+                <h3 class="card-title">Usage</h3>
+                <div class="usage-card">
+                    <div class="card-header">
+                        <div class="usage-period">
+                            Last 30 days<br />
+                            <small>Updated 11m ago</small>
+
+
+                        </div>
+                        <button class="upgrade-button">Upgrade</button>
+                    </div>
+                    <div class="usage-item">
+                        <div class="usage-label">
+                            <div class="usage-icon"><img src="Progress-circle.png" alt="" height="20px" width="20px">
+                            </div>
+                            Fast Data Transfer
+                        </div>
+                        <div class="usage-value">773.59 MB / 100 GB</div>
+                    </div>
+                    <div class="usage-item">
+                        <div class="usage-label">
+                            <div class="usage-icon"><img src="Progress-circle.png" alt="" height="20px" width="20px">
+                            </div>
+                            Edge Requests
+                        </div>
+                        <div class="usage-value">6.6K / 1M</div>
+                    </div>
+                    <div class="usage-item">
+                        <div class="usage-label">
+                            <div class="usage-icon"><img src="Progress-circle.png" alt="" height="20px" width="20px">
+                            </div>
+                            Edge Request CPU Duration
+                        </div>
+                        <div class="usage-value">0s / 1h</div>
+                    </div>
+
+                    <button class="down-arrow"><img src="down-arrow.svg" alt="" height="15px"></button>
+                </div>
+
+
+                <!-- Recent Previews Card -->
+                <h3 class="card-title">Recent Previews</h3>
+                <div class="previews-card">
+
+                    <div class="previews-empty">
+                        <div class="previews-icon"><img src="eye.png" alt="" height="30px"></div>
+                        <p>
+                            Preview deployments that you have recently
+                            visited or created will appear here.
+                        </p>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="abc">
+                <!-- Projects Section -->
+                <h2 class="projects-title">Projects</h2>
+
+
+                <section class="projects-section" style="flex-direction: column;">
+                    <div class="project-item">
+                        <div style="display: flex; flex-direction: column;">
+
+                            <div style="display: flex; gap: 18px">
+                                <div class="project-icon spark">
+                                    <img src="favicon1.svg" alt="" height="35px">
+                                </div>
+                                <div class="abc">
+                                    <div class="project-name">spark-2-k25-2-k26</div>
+                                    <div class="project-url">spark-2k25.vercel.app</div>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div class="project-meta">
+                                    <a href="#" class="github-link">
+                                        <span class="spark"><img src="github.svg" alt=""></span>
+                                        Replica/Spark-2K25---2K26
+                                    </a>
+                                </div>
+                                <div style="margin-top: 8px; font-size: 14px">
+                                    <strong>Added README.md</strong><br />
+                                    <span style="color: #6b7280">
+                                        Aug 20 on <img src="branch.png" alt="" height="15px"> main
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="project-actions">
+                            <button class="action-button"> <img src="heart-beart.svg" alt=""></button>
+                            <button class="action-button"> ⋯</button>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="projects-section" style="flex-direction: column;">
+  <div class="project-item">
+    <div style="display: flex; flex-direction: column;">
+
+      <div style="display: flex; gap: 18px;">
+        <div class="project-icon jovian">
+          <img src="favicon2.png" alt="" height="35px">
+        </div>
+        <div class="abc">
+          <div class="project-name">jovian-responsive-page</div>
+          <div class="project-url">jovian-responsive-page.vercel.app</div>
+        </div>
+      </div>
+
+      <div class="project-details">
+        <div class="project-meta">
+          <a href="#" class="github-link">
+            <span class="spark"><img src="github.svg" alt=""></span>
+            Replica/jovian-responsive-...
+          </a>
+        </div>
+        <div style="margin-top: 8px; font-size: 14px">
+          <strong>fixed a mistake</strong><br />
+          <span style="color: #6b7280">
+            6/27/24 on <img src="branch.png" alt="" height="15px"> main
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="project-actions">
+      <button class="action-button"><img src="heart-beart.svg" alt=""></button>
+      <button class="action-button">⋯</button>
+    </div>
+  </div>
+</section>
+
+                <section class="projects-section" style="flex-direction: column;">
+  <div class="project-item">
+    <div style="display: flex; flex-direction: column;">
+
+      <div style="display: flex; gap: 18px;">
+        <div class="project-icon profile"><img src="favicon3.png" alt="" height="40px"></div>
+        <div class="abc">
+          <div class="project-name">profile</div>
+          <div class="project-url">profile-replica.vercel.app</div>
+        </div>
+      </div>
+
+      <div class="project-details">
+        <div class="project-meta">
+          <a href="#" class="github-link">
+            <span class="spark"><img src="github.svg" alt=""></span>
+            Replica/profile
+          </a>
+        </div>
+        <div style="margin-top: 8px; font-size: 14px">
+          <strong>Initial commit</strong><br />
+          <span style="color: #6b7280">
+            on <img src="branch.png" alt="" height="15px"> main
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="project-actions">
+      <button class="action-button"><img src="heart-beart.svg" alt=""></button>
+      <button class="action-button">⋯</button>
+    </div>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
